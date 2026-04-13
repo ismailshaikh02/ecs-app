@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 // Health check (VERY IMPORTANT for ALB)
 app.get('/', (req, res) => {
-  res.send('Hello from ECS 🚀');
+  res.send('Hello Ismail Shaikh 🚀');
 });
 
 app.get('/health', (req, res) => {
